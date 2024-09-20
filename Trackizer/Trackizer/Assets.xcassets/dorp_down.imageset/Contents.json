@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "dorp_down.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

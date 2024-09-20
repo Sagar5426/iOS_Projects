@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		453A40CE2C6DE73A00B43806 /* InstafilterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453A40CD2C6DE73A00B43806 /* InstafilterApp.swift */; };
+		453A40D02C6DE73A00B43806 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453A40CF2C6DE73A00B43806 /* ContentView.swift */; };
+		453A40D22C6DE73B00B43806 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 453A40D12C6DE73B00B43806 /* Assets.xcassets */; };
+		453A40D52C6DE73B00B43806 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 453A40D42C6DE73B00B43806 /* Preview Assets.xcassets */; };
+		453A40DD2C6DE85000B43806 /* how property wrappers become struct .swift in Sources */ = {isa = PBXBuildFile; fileRef = 453A40DC2C6DE85000B43806 /* how property wrappers become struct .swift */; };
+		453A40DF2C6DF05A00B43806 /* Responding to state change using onChange() modifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453A40DE2C6DF05A00B43806 /* Responding to state change using onChange() modifier.swift */; };
+		453A40E12C6DF2E900B43806 /* Showing multiple options using confirmationDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453A40E02C6DF2E900B43806 /* Showing multiple options using confirmationDialog.swift */; };
+		455DC5FD2C6E478900E25AB3 /* Integrating Core Image with SwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455DC5FC2C6E478900E25AB3 /* Integrating Core Image with SwiftUI.swift */; };
+		457C85522C6F823C00097AEF /* Loading photos from user photo library.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457C85512C6F823C00097AEF /* Loading photos from user photo library.swift */; };
+		457C85542C6F8CA300097AEF /* Loading Multiple image using photoPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457C85532C6F8CA200097AEF /* Loading Multiple image using photoPicker.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		453A40CA2C6DE73A00B43806 /* Instafilter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instafilter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		453A40CD2C6DE73A00B43806 /* InstafilterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstafilterApp.swift; sourceTree = "<group>"; };
+		453A40CF2C6DE73A00B43806 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		453A40D12C6DE73B00B43806 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		453A40D42C6DE73B00B43806 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		453A40DC2C6DE85000B43806 /* how property wrappers become struct .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "how property wrappers become struct .swift"; sourceTree = "<group>"; };
+		453A40DE2C6DF05A00B43806 /* Responding to state change using onChange() modifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Responding to state change using onChange() modifier.swift"; sourceTree = "<group>"; };
+		453A40E02C6DF2E900B43806 /* Showing multiple options using confirmationDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Showing multiple options using confirmationDialog.swift"; sourceTree = "<group>"; };
+		455DC5FC2C6E478900E25AB3 /* Integrating Core Image with SwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Integrating Core Image with SwiftUI.swift"; sourceTree = "<group>"; };
+		457C85512C6F823C00097AEF /* Loading photos from user photo library.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Loading photos from user photo library.swift"; sourceTree = "<group>"; };
+		457C85532C6F8CA200097AEF /* Loading Multiple image using photoPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Loading Multiple image using photoPicker.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		453A40C72C6DE73A00B43806 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		453A40C12C6DE73A00B43806 = {
+			isa = PBXGroup;
+			children = (
+				453A40CC2C6DE73A00B43806 /* Instafilter */,
+				453A40CB2C6DE73A00B43806 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		453A40CB2C6DE73A00B43806 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				453A40CA2C6DE73A00B43806 /* Instafilter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		453A40CC2C6DE73A00B43806 /* Instafilter */ = {
+			isa = PBXGroup;
+			children = (
+				453A40CD2C6DE73A00B43806 /* InstafilterApp.swift */,
+				453A40CF2C6DE73A00B43806 /* ContentView.swift */,
+				453A40DB2C6DE77C00B43806 /* lessons */,
+				453A40D12C6DE73B00B43806 /* Assets.xcassets */,
+				453A40D32C6DE73B00B43806 /* Preview Content */,
+			);
+			path = Instafilter;
+			sourceTree = "<group>";
+		};
+		453A40D32C6DE73B00B43806 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				453A40D42C6DE73B00B43806 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		453A40DB2C6DE77C00B43806 /* lessons */ = {
+			isa = PBXGroup;
+			children = (
+				453A40DC2C6DE85000B43806 /* how property wrappers become struct .swift */,
+				453A40DE2C6DF05A00B43806 /* Responding to state change using onChange() modifier.swift */,
+				453A40E02C6DF2E900B43806 /* Showing multiple options using confirmationDialog.swift */,
+				455DC5FC2C6E478900E25AB3 /* Integrating Core Image with SwiftUI.swift */,
+				457C85512C6F823C00097AEF /* Loading photos from user photo library.swift */,
+				457C85532C6F8CA200097AEF /* Loading Multiple image using photoPicker.swift */,
+			);
+			path = lessons;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		453A40C92C6DE73A00B43806 /* Instafilter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 453A40D82C6DE73B00B43806 /* Build configuration list for PBXNativeTarget "Instafilter" */;
+			buildPhases = (
+				453A40C62C6DE73A00B43806 /* Sources */,
+				453A40C72C6DE73A00B43806 /* Frameworks */,
+				453A40C82C6DE73A00B43806 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Instafilter;
+			productName = Instafilter;
+			productReference = 453A40CA2C6DE73A00B43806 /* Instafilter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		453A40C22C6DE73A00B43806 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					453A40C92C6DE73A00B43806 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 453A40C52C6DE73A00B43806 /* Build configuration list for PBXProject "Instafilter" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 453A40C12C6DE73A00B43806;
+			productRefGroup = 453A40CB2C6DE73A00B43806 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				453A40C92C6DE73A00B43806 /* Instafilter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		453A40C82C6DE73A00B43806 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				453A40D52C6DE73B00B43806 /* Preview Assets.xcassets in Resources */,
+				453A40D22C6DE73B00B43806 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		453A40C62C6DE73A00B43806 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				453A40E12C6DF2E900B43806 /* Showing multiple options using confirmationDialog.swift in Sources */,
+				453A40D02C6DE73A00B43806 /* ContentView.swift in Sources */,
+				453A40DF2C6DF05A00B43806 /* Responding to state change using onChange() modifier.swift in Sources */,
+				455DC5FD2C6E478900E25AB3 /* Integrating Core Image with SwiftUI.swift in Sources */,
+				457C85542C6F8CA300097AEF /* Loading Multiple image using photoPicker.swift in Sources */,
+				453A40DD2C6DE85000B43806 /* how property wrappers become struct .swift in Sources */,
+				457C85522C6F823C00097AEF /* Loading photos from user photo library.swift in Sources */,
+				453A40CE2C6DE73A00B43806 /* InstafilterApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		453A40D62C6DE73B00B43806 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		453A40D72C6DE73B00B43806 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		453A40D92C6DE73B00B43806 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Instafilter/Preview Content\"";
+				DEVELOPMENT_TEAM = 75RPJYM6U7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sagar.Instafilter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		453A40DA2C6DE73B00B43806 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Instafilter/Preview Content\"";
+				DEVELOPMENT_TEAM = 75RPJYM6U7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sagar.Instafilter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		453A40C52C6DE73A00B43806 /* Build configuration list for PBXProject "Instafilter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				453A40D62C6DE73B00B43806 /* Debug */,
+				453A40D72C6DE73B00B43806 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		453A40D82C6DE73B00B43806 /* Build configuration list for PBXNativeTarget "Instafilter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				453A40D92C6DE73B00B43806 /* Debug */,
+				453A40DA2C6DE73B00B43806 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 453A40C22C6DE73A00B43806 /* Project object */;
+}
