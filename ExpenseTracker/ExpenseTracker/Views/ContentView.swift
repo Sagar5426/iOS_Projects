@@ -9,7 +9,7 @@ import SwiftUI
 import SwiftData
 
 struct ContentView: View {
-    @Environment (\.modelContext) var modelContext
+    @Environment(\.modelContext) var modelContext
     @Query var expenses: [ExpenseItem]
     
     @State private var filterOut = false

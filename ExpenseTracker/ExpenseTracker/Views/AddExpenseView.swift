@@ -50,7 +50,7 @@ struct AddExpenseView: View {
                     .keyboardType(.decimalPad)
                     .listRowBackground(LinearGradient.lightBackground)
             }
-            .listRowBackground(LinearGradient.lightBackground)
+            .listRowBackground(LinearGradient.lightBackground) // don't work need to every child or apply directly using ForEach inside List
             
             
             .navigationTitle("Add new expense")
